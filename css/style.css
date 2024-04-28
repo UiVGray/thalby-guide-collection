@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a, button {
+    cursor: pointer;
+}
+
+button {
+    border: none;
+}
+
+.header {
+    padding: 16px 0;
+}
+
+.container {
+    max-width: 1088px;
+    margin: auto;
+    padding: 0 16px;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    margin-right: 5.76vw;
+    max-width: 423px;
+    width: 100%;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+}
+
+.nav li {
+    font-weight: 700;
+    color: #1C1B1B;
+}
+
+.logo {
+    margin-right: 26vw;
+}
+
+.header__icons-wrapper {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-left: auto
+}
+
+.introduction, .society, .politics {
+    background: #F0EFEB;
+  }
+
+.introduction__text-block {
+    max-width: 525px;
+    padding: 90px 0;
+}
+
+.introduction__container {
+    display: flex;
+    justify-content:space-between;
+}
+
+.introduction__heading {
+    font-size: 60px;
+    line-height: 70px;
+    margin-bottom: 42px;
+}
+
+.introduction__text {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 26px;
+}
+
+.introduction__button {
+    color: #FFFFFF;
+    background: #000000;
+    font-size: 17px;
+    line-height: 20px;
+    padding: 8px 23px;
+    border-radius: 100px;
+}
+
+.culture {
+    background: #e0e0e0;
+}
+
+.guides__container {
+    display: flex;
+    column-gap: 50px;
+    padding: 75px 0;
+}
+
+.guides__text-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 535px;
+    margin: 9vh 0;
+}
+
+.guides__heading {
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.guides__text {
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.guides__link {
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+#culture-guide-text {
+    text-align: end;
+}
