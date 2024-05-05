@@ -198,3 +198,75 @@ button {
 #culture-guide-text {
     text-align: end;
 }
+
+.feature__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 70px;
+    padding: 190px 0;
+}
+
+.feature__heading {
+    max-width: 450px;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;  
+}
+
+.feature__content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 100px;
+    column-gap: 200px;
+}
+
+.feature__item-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+    row-gap: 26px;
+}
+
+.feature__circle-item {
+    width: 70px;
+	height: 70px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+#cyan-circle {
+    background: #21F7EC;
+}
+
+#turquoise-circle {
+    background: #33D3BC;
+}
+
+#blue-circle {
+    background: #18A5C6;
+}
+
+#brown-circle {
+    background: #D38F62;
+}
+
+#red-circle {
+    background: #F94C43;
+}
+
+#purple-circle {
+    background: #D399FF;
+}
+
+.feature__text{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+}
