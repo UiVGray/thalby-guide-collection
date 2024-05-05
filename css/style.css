@@ -18,13 +18,13 @@ button {
 }
 
 .header {
-    padding: 16px 0;
+    padding: 2vh 0;
 }
 
 .container {
     max-width: 1088px;
     margin: auto;
-    padding: 0 16px;
+    padding: 0 2vw;
 }
 
 .header__container {
@@ -66,7 +66,7 @@ button {
 
 .introduction__text-block {
     max-width: 525px;
-    padding: 90px 0;
+    padding: 12vh 0;
 }
 
 .introduction__container {
@@ -77,13 +77,13 @@ button {
 .introduction__heading {
     font-size: 60px;
     line-height: 70px;
-    margin-bottom: 42px;
+    margin-bottom: 6vh;
 }
 
 .introduction__text {
     font-size: 24px;
     line-height: 28px;
-    margin-bottom: 26px;
+    margin-bottom: 3vh;
 }
 
 .introduction__button {
@@ -91,34 +91,36 @@ button {
     background: #000000;
     font-size: 17px;
     line-height: 20px;
-    padding: 8px 23px;
+    padding: 1vh 3vw;
     border-radius: 100px;
 }
 
 .overview__container {
-    padding: 75px 0;
+    padding: 10vh 0;
 }
 
 .overview__text-block {
     display: flex;
     flex-direction: column;
-    align-items: center;  
+    align-items: center;
+    row-gap: 20px;  
 }
 
-.overview__heading, .best-sellers__heading, .best-sellers__sub-heading {
+.overview__heading, .best-sellers__heading, .best-sellers__sub-heading, .interviews__heading {
     text-align: center;
 }
 
 .overview__text-wrapper {
+    display: flex;
+    flex-direction: column;
     max-width: 650px;
-    padding: 0 9px;
+    row-gap: 20px; 
 }
 
 .overview__text {
     font-size: 20px;   
     line-height: 23px; 
     text-align: center;
-    margin: 3vh 0;
 }
 
 .best-sellers__container {
@@ -126,19 +128,20 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 25vh;
+    padding-bottom: 25vh;
 }
 
 .best-sellers__content-wrapper {
     display: flex;
     column-gap: 60px;
-    margin: 50px 0;
+    padding: 7vh 0;
 }
 
 .best-sellers__item-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
+    row-gap: 20px;
 }
 
 .best-sellers__sub-heading {
@@ -146,18 +149,12 @@ button {
     font-weight: 700;
     font-size: 17px;
     line-height: 20px;
-    margin: 3vh 0 2vh 0;
 }
 
 .best-sellers__text{
     font-weight: 400;
     font-size: 17px;
     line-height: 20px;
-    margin: 1vh 0;
-}
-
-.best-sellers__link {
-   margin: .5vh 0;
 }
 
 .culture {
@@ -167,18 +164,17 @@ button {
 .guides__container {
     display: flex;
     column-gap: 50px;
-    padding: 75px 0;
+    padding: 10vh 0;
 }
 
 .guides__text-block {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     max-width: 535px;
-    margin: 9vh 0;
 }
 
-.guides__heading, .overview__heading, .best-sellers__heading {
+.guides__heading, .overview__heading, .best-sellers__heading, .interviews__heading {
     font-size: 36px;
     line-height: 42px;
 }
@@ -188,7 +184,7 @@ button {
     line-height: 42px;
 }
 
-.guides__link, .best-sellers__link {
+.guides__link, .best-sellers__link, .interviews__link {
     text-decoration: underline;
     font-weight: 700;
     font-size: 17px;
@@ -205,7 +201,7 @@ button {
     justify-content: center;
     align-items: center;
     row-gap: 70px;
-    padding: 190px 0;
+    padding: 25vh 0;
 }
 
 .feature__heading {
@@ -268,5 +264,50 @@ button {
     font-weight: 700;
     font-size: 30px;
     line-height: 35px;
+    text-align: center;
+}
+
+.interviews {
+    background: linear-gradient(#F0EFEB,#F0EFEB) 100% calc(57vh - 100%) no-repeat;
+}
+
+.interviews__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 100px;
+    padding-bottom: 10vh;
+}
+
+.interviews__heading {
+    max-width: 700px;
+}
+
+.interviews__content-wrapper {
+    display: flex;
+    column-gap: 100px;
+}
+
+.interviews__item-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+}
+
+.interviews__sub-heading {
+    max-width: 250px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.interviews__text{
+    max-width: 250px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
     text-align: center;
 }
