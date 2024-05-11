@@ -102,23 +102,25 @@ button {
 .overview__text-block {
     display: flex;
     flex-direction: column;
-    align-items: center;  
+    align-items: center;
+    row-gap: 20px;  
 }
 
-.overview__heading, .best-sellers__heading, .best-sellers__sub-heading {
+.overview__heading, .best-sellers__heading, .best-sellers__sub-heading, .interviews__heading {
     text-align: center;
 }
 
 .overview__text-wrapper {
+    display: flex;
+    flex-direction: column;
     max-width: 650px;
-    padding: 0 9px;
+    row-gap: 20px; 
 }
 
 .overview__text {
     font-size: 20px;   
     line-height: 23px; 
     text-align: center;
-    margin: 3vh 0;
 }
 
 .best-sellers__container {
@@ -126,19 +128,20 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 25vh;
+    padding-bottom: 140px;
 }
 
 .best-sellers__content-wrapper {
     display: flex;
     column-gap: 60px;
-    margin: 50px 0;
+    padding: 50px 0;
 }
 
 .best-sellers__item-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
+    row-gap: 20px;
 }
 
 .best-sellers__sub-heading {
@@ -146,18 +149,12 @@ button {
     font-weight: 700;
     font-size: 17px;
     line-height: 20px;
-    margin: 3vh 0 2vh 0;
 }
 
-.best-sellers__text{
+.best-sellers__text {
     font-weight: 400;
     font-size: 17px;
     line-height: 20px;
-    margin: 1vh 0;
-}
-
-.best-sellers__link {
-   margin: .5vh 0;
 }
 
 .culture {
@@ -173,12 +170,11 @@ button {
 .guides__text-block {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     max-width: 535px;
-    margin: 9vh 0;
 }
 
-.guides__heading, .overview__heading, .best-sellers__heading {
+.guides__heading, .overview__heading, .best-sellers__heading, .interviews__heading {
     font-size: 36px;
     line-height: 42px;
 }
@@ -188,13 +184,129 @@ button {
     line-height: 42px;
 }
 
-.guides__link, .best-sellers__link {
+.guides__link, .best-sellers__link, .interviews__link {
     text-decoration: underline;
     font-weight: 700;
     font-size: 17px;
     line-height: 20px;
 }
 
-#culture-guide-text {
+.culture-guide-text {
     text-align: end;
+}
+
+.feature__container {
+    padding: 190px 0;
+}
+
+.feature__heading {
+    max-width: 450px;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    margin: 0 auto 70px auto;  
+}
+
+.feature__content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.feature__item-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+    row-gap: 26px;
+}
+
+.feature__circle-item {
+    width: 70px;
+	height: 70px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+.cyan {
+    background: #21F7EC;
+}
+
+.turquoise {
+    background: #33D3BC;
+}
+
+.blue {
+    background: #18A5C6;
+}
+
+.brown {
+    background: #D38F62;
+}
+
+.red {
+    background: #F94C43;
+}
+
+.purple {
+    background: #D399FF;
+}
+
+.feature__text {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.interviews {
+    background: linear-gradient(#F0EFEB,#F0EFEB) 100% calc(57vh - 100%) no-repeat;
+}
+
+.interviews__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 100px;
+    padding-bottom: 35px;
+}
+
+.interviews__heading {
+    max-width: 700px;
+}
+
+.interviews__content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 50px;
+}
+
+.interviews__item-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+    padding-bottom: 40px;
+}
+
+.interviews__sub-heading {
+    max-width: 250px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.interviews__text{
+    max-width: 250px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
 }
