@@ -226,8 +226,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
-    row-gap: 20px;
+    row-gap: 100px;
     column-gap: 20px;
 }
 
@@ -235,7 +234,9 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 200px;
+    padding: 0 60px;
+    max-width: 338px;
+    width: 100%;
     row-gap: 26px;
 }
 
