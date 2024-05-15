@@ -44,9 +44,10 @@ button {
     gap: 28px;
 }
 
-.nav li {
+.nav a {
     font-weight: 700;
     color: #1C1B1B;
+    text-decoration: none;
 }
 
 .logo {
@@ -95,8 +96,12 @@ button {
     border-radius: 100px;
 }
 
+.introduction__button:hover {
+    box-shadow: 5px 5px 40px 0 #83827d;
+}
+
 .overview__container {
-    padding: 75px 0;
+    padding: 75px 16px;
 }
 
 .overview__text-block {
@@ -144,6 +149,10 @@ button {
     row-gap: 20px;
 }
 
+.best-sellers__image {
+    height: 430px;
+}
+
 .best-sellers__sub-heading {
     max-width: 155px;
     font-weight: 700;
@@ -157,6 +166,7 @@ button {
     line-height: 20px;
 }
 
+
 .culture {
     background: #e0e0e0;
 }
@@ -164,7 +174,7 @@ button {
 .guides__container {
     display: flex;
     column-gap: 50px;
-    padding: 75px 0;
+    padding: 75px 16px;
 }
 
 .guides__text-block {
@@ -174,7 +184,7 @@ button {
     max-width: 535px;
 }
 
-.guides__heading, .overview__heading, .best-sellers__heading, .interviews__heading {
+.guides__heading, .overview__heading, .best-sellers__heading, .interviews__heading, .contact-form__heading {
     font-size: 36px;
     line-height: 42px;
 }
@@ -189,14 +199,19 @@ button {
     font-weight: 700;
     font-size: 17px;
     line-height: 20px;
+    color: #1C1B1B;
 }
 
 .culture-guide-text {
     text-align: end;
 }
 
+.politics a {
+    cursor: default;
+}
+
 .feature__container {
-    padding: 190px 0;
+    padding: 190px 16px;
 }
 
 .feature__heading {
@@ -303,10 +318,130 @@ button {
     text-align: center;
 }
 
-.interviews__text{
+.interviews__text {
     max-width: 250px;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
+    text-align: center;
+}
+
+.contact-form__container {
+    padding: 78px 16px 88px 16px;
+}
+
+.contact-form__heading {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.contact-form__text {
+    max-width: 500px;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    margin: 0 auto 26px auto;
+}
+
+.contact-form__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 18px;
+}
+
+.contact-form__name-input-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-box {
+    height: 39px;
+    padding: 0 8px;
+    border: solid 1px #000000;
+}
+
+.name-input {
+    width: 153px;
+}
+
+.email-input, .contact-form__name-input-wrapper {
+    width: 366px;
+}
+
+.contact-form__button {
+    color: #FFFFFF;
+    background: #000000;
+    font-size: 17px;
+    line-height: 20px;
+    padding: 8px 23px;
+    border-radius: 100px;
+}
+
+.contact-form__button:hover {
+    box-shadow: 5px 5px 30px 0 #979692;
+}
+
+.footer {
+    background: #000000;
+}
+
+.footer__container {
+    padding: 50px 16px 16px 16px;
+}
+
+.footer__links-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__container a {
+    text-decoration: none;
+}
+
+.footer__socials {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.footer__socials-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__nav {
+    display: flex;
+    column-gap: 60px;
+}
+
+.footer__nav a, .footer__heading, .footer__sub-heading {
+    color: #FFFFFF;
+}
+
+.footer__heading {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    margin-bottom: 36px;
+}
+
+.footer__nav a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+}
+
+.footer__nav-group {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.footer__sub-heading {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
     text-align: center;
 }
