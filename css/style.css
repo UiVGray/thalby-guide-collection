@@ -615,7 +615,7 @@ button {
         font-size: 17px;
         line-height: 24px;
     }
-
+    
     .footer__container {
         padding-top: 30px
     }
@@ -753,11 +753,6 @@ button {
         padding-bottom: 30px;
     }
 
-    .best-sellers__image {
-        max-width: 315px;
-        max-height: 430px;
-    }
-
     .guides__container {
         align-items: center;
         padding: 30px 16px;
@@ -823,6 +818,38 @@ button {
         padding: 18px 33px;
     }
 
+    
+    .footer__container {
+        padding-top: 16px
+    }
+
+    .footer__links-group {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .footer__socials {
+        row-gap: 10px;
+        padding-bottom: 20px;
+    }
+
+    .footer__heading {
+        margin-bottom: 10px;
+    }
+    .footer__nav {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer__nav-group {
+        row-gap: 5px;
+        padding-bottom: 20px;
+    }
+    
+    .footer__nav-group a {
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 552px) {
