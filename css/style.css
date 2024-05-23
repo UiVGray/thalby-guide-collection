@@ -445,6 +445,20 @@ button {
     border: solid 1px #000000;
 }
 
+.input-box:hover {
+    box-shadow: 5px 5px 30px 0 #979692;
+}
+
+.input-box:focus {
+    background: #E0E0E0;
+    border: none;
+    outline: none;
+}
+
+.input-box:focus::placeholder {
+    color: #FFFFFF;
+}
+
 .name-input {
     width: 153px;
 }
@@ -538,7 +552,12 @@ button {
 
     .best-sellers__image {
         max-width: 285px;
-        max-height: 410px;
+    }
+}
+
+@media only screen and (max-width: 1102px) {
+    .feature__content-wrapper {
+        justify-content: center;
     }
 }
 
@@ -753,6 +772,11 @@ button {
         padding-bottom: 30px;
     }
 
+    .best-sellers__image {
+        max-width: 315px;
+        max-height: 430px;
+    }
+
     .guides__container {
         align-items: center;
         padding: 30px 16px;
@@ -770,7 +794,6 @@ button {
 
     .guides__image {
         max-width: 315px;
-        max-height: 430px;
     }
 
     .feature__content-wrapper {
